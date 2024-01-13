@@ -5,7 +5,6 @@ function App() {
     return (
         <div>
             <Footer />
-            <h1>Hello guys</h1>
         </div>
     );
 }

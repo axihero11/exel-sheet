@@ -79,13 +79,11 @@ function CoursesIng({course}) {
                   </div>
                   <div className="imgs-item">
                     <div id={course=="Math" ? 'selected1' : ''} className="img-box">
-                      <img src={word} alt="Word" />
+                      {/* <img src={word} alt="Word" /> */}x
+                      <h1>IELTS</h1>
                     </div>
                     <div id={course=="Math" ? 'selected1' : ''} className="img-box">
-                      <img src={word} alt="Word" />
-                    </div>
-                    <div id={course=="Math" ? 'selected1' : ''} className="img-box">
-                      <img  src={word} alt="Word" />
+                      <h1>SEFR</h1>
                     </div>
                   </div>
                 </div>
