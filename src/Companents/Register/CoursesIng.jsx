@@ -26,7 +26,7 @@ function CoursesIng({ course }) {
           <h1>SEFR</h1>
         </div>
       </div>
-      <div className="imgs-item">
+      <div className="imgs-item item_cor">
         <div id={course == "Komp_Sav" ? 'selected1' : ''} className="img-box">
           <img src={word} alt="Word" />
         </div>

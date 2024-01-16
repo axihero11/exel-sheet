@@ -1,26 +1,32 @@
 import React from 'react'
 import "./forwho.css"
 import foiz from "../../../imgs/100.png"
+import AOS from "aos"
+import { useEffect } from 'react'
 
 function ForWho() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='for_cont'>
       <div className="for container">
-        <h1 className="title">Kursda nimalar <br /><span>kafolatlangan</span></h1>
+        <h1 data-aos="fade-right" data-aos-duration="800" className="title">Kursda nimalar <br /><span>kafolatlangan</span></h1>
         <div className="for_row">
-            <div className="for_box">
+            <div className="for_box" data-aos="zoom-in-right" data-aos-duration="1000">
                 <img src={foiz} alt="" />
                 <h5>Kursni 100% bilim bilan yakunlash</h5><br />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto obcaecati, velit magni </p>
                 <div className="shadow1"></div>
             </div>
-            <div className="for_box">
+            <div className="for_box" data-aos="zoom-in" data-aos-duration="1000">
                 <img src={foiz} alt="" />
                 <h5>Kursni 100% bilim bilan yakunlash</h5><br />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto obcaecati, velit magni </p>
                 <div className="shadow1"></div>
             </div>
-            <div className="for_box">
+            <div className="for_box" data-aos="zoom-in-left" data-aos-duration="1000">
                 <img src={foiz} alt="" />
                 <h5>Kursni 100% bilim bilan yakunlash</h5><br />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto obcaecati, velit magni </p>

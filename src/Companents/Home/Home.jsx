@@ -1,11 +1,16 @@
 import React from 'react'
 import "./home.css"
+// import AOS from 'aos'
+
+
 import Register from '../Register/Register'
 import logo from "../../imgs/logo.png"
 import ForWho from './ForWho/ForWho'
 import Courses from './Courses/Courses'
 
 function Home() {
+
+  // AOS.init()
   return (
     <div>
       <div className="home_container">
@@ -35,19 +40,19 @@ function Home() {
           </div>
           <div className="result container11">
             <div className="result_row">
-              <div className="result_card">
+              <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
                 <h3>200+</h3>
                 <p>Lorem ipsum dolor sit amet consectetur,
                   adipisicing elit. Adipisci expedita
                   sed voluptatibus quos illum numquam et</p>
               </div>
-              <div className="result_card">
+              <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
                 <h3>200+</h3>
                 <p>Lorem ipsum dolor sit amet consectetur,
                   adipisicing elit. Adipisci expedita
                   sed voluptatibus quos illum numquam et</p>
               </div>
-              <div className="result_card">
+              <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
                 <h3>200+</h3>
                 <p>Lorem ipsum dolor sit amet consectetur,
                   adipisicing elit. Adipisci expedita
