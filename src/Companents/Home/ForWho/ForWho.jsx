@@ -12,7 +12,7 @@ function ForWho() {
   return (
     <div className='for_cont'>
       <div className="for container">
-        <h1 data-aos="fade-right" data-aos-duration="800" className="title">Kursda nimalar <br /><span>kafolatlangan</span></h1>
+        <h1 data-aos="fade-right" data-aos-duration="300" className="title">Kursda nimalar <br /><span>kafolatlangan</span></h1>
         <div className="for_row">
             <div className="for_box" data-aos="zoom-in-right" data-aos-duration="1000">
                 <img src={foiz} alt="" />

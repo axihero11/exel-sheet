@@ -9,7 +9,7 @@ function Courses() {
         <div>
             <div className="courses_cont">
                 <div className="courses container">
-                    <h1>Bizning <span>kurslar</span> <br />nimalardan iborat?</h1>
+                    <h1 data-aos="fade-right">Bizning <span>kurslar</span> <br />nimalardan iborat?</h1>
                     <div className="courses_row">
                         <div className="courses_box" data-aos="fade-right" data-aos-duration="1000">
                             <div className="logo_img">
