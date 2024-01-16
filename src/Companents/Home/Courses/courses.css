@@ -34,9 +34,9 @@
 
 .courses_box:hover {
     border: 1px solid #f9c321;
-    box-shadow: 8px 10px 23px -3px rgba(0,0,0,0.75);
--webkit-box-shadow: 8px 10px 23px -9px #f9c321;
--moz-box-shadow: 8px 10px 23px -9px rgba(0,0,0,0.75);
+    box-shadow: 8px 10px 23px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 10px 23px -9px #f9c321;
+    -moz-box-shadow: 8px 10px 23px -9px rgba(0, 0, 0, 0.75);
 }
 
 .courses_box .logo_img {
@@ -44,7 +44,7 @@
     align-items: center;
     gap: 20px;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 2vh;
 }
 
 .courses_box .logo_img h4 {
@@ -69,4 +69,5 @@
     .courses_row {
         grid-template-columns: auto;
     }
+
 }

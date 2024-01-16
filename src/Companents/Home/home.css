@@ -123,6 +123,9 @@
     .navbar {
         position: relative;
     }
+    .navbar h4, a{
+        font-size:13px;
+    }
 
     .logo,.time,.phone {
         position: absolute;
