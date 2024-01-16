@@ -4,7 +4,7 @@
 
 .home_head {
     width: 100%;
-    height: 115vh;
+    height: auto;
     background-color: #000000;
 }
 
@@ -77,11 +77,11 @@
     font-weight: 600;
 }
 .result{
-    margin-top: -15vh;
+    margin-top: -8vh; 
 }
 .result_row{
     width: 100%;
-    height: 30vh;
+    height: auto    ;
     border: 2px solid #f9c321;
     border-radius: 20px;
     display: flex;
