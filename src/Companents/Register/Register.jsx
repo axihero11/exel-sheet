@@ -1,16 +1,16 @@
 import React from 'react'
-import "./footer.css"
+import "./register.css"
 
 import { useState, useEffect } from 'react';
 import axios from 'axios'
 
 import MasketInput from "react-text-mask"
-import gif from "./imgs/loading1.png"
+import gif from "../../imgs/loading1.png"
 import CoursesIng from './CoursesIng';
-import java from "./imgs/java.png"
+import java from "../../imgs/java.png"
 
 
-function Footer() {
+function Register() {
   const [name, setName] = useState('');
   const [sureName, setSureName] = useState('');
   const [number, setNumber] = useState('');
@@ -71,7 +71,7 @@ function Footer() {
           <div className="radio-container">
             <div className="radio-section">
               <div className="radio-item">
-                <input type="radio" id='eng' name='course' onChange={(e) => setCourse(e.target.value)} value={'English'} required />
+                <input type="radio" id='eng' name='course' onChange={(e) => setCourse(e.target.value)} value={'Math'} required />
                 <label htmlFor="eng">English</label>
               </div>
               <div className='radio-item'>
@@ -91,16 +91,15 @@ function Footer() {
                 <label htmlFor="grafic">Grafic Desing</label>
               </div>
               <div className="radio-item">
-                <input type="radio" id='math' name='course' onChange={(e) => setCourse(e.target.value)} value={'Math'} required />
+                <input type="radio" id='math' name='course' onChange={(e) => setCourse(e.target.value)} value={'English'} required />
                 <label htmlFor="math">Math</label>
               </div>
-              {/* <hr style={{position:"absolute", width:"100vw"}}/> */}
             </div>
             <CoursesIng course={course} />
           </div>
           <div className="text-section">
             <div className="inputBox">
-              <input className='input' onChange={(e) => setName(e.target.value)} value={name} type="text" required='required' />
+              <input className='input'  onChange={(e) => setName(e.target.value)} value={name} type="text" required='required' />
               <span>Name</span>
             </div>
             <div className="inputBox">
@@ -124,4 +123,4 @@ function Footer() {
     </div>
   )
 }
-export default Footer
+export default Register

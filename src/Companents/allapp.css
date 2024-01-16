@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner_container{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+.container{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width:1400px){
+    .container{
+        width: 1130px;
+    }
+}
+@media (max-width:1130px){
+    .container{
+        width: 996px;
+    }
+}
+@media (max-width:996px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
