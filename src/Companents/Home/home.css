@@ -62,7 +62,7 @@
 }
 
 .head_text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 .head_text h1 span {
@@ -88,6 +88,9 @@
     justify-content: space-between;
     gap: 20px;
     padding: 20px
+}
+.result_card{
+    width: 33%;
 }
 .result_card h3{
     font-family:Georgia, 'Times New Roman', Times, serif ;
@@ -149,5 +152,8 @@
     .navbar .phone {
         top: 70px;
         right: 0;
+    }
+    .result_card{
+        width: 100%;
     }
 }

@@ -41,12 +41,12 @@
     border: 1px solid #f9c321;
 }
 .for_box .shadow1{
-    box-shadow: 0px 0px 40px 20px white;
+    /* box-shadow: 0px 0px 0px 0px white; */
     width: 100px;
     height: 150px;
     background-color: white;
     left: 5vw;
-    bottom: 18vh;
+    bottom: 12vh;
     position: absolute;
     z-index: 1;
     border-radius: 50%;

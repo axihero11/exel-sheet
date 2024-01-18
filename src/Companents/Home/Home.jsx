@@ -42,21 +42,15 @@ function Home() {
             <div className="result_row">
               <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
                 <h3>200+</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Adipisci expedita
-                  sed voluptatibus quos illum numquam et</p>
+                <p>O'quv markaz ochilishiga ko'p bo'lmasdan 200 dan ortiq o'quvchilarni o'z sohasini mutahasisi bo'lib yetishtirdi</p>
               </div>
               <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
-                <h3>200+</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Adipisci expedita
-                  sed voluptatibus quos illum numquam et</p>
+                <h3>15+</h3>
+                <p>Har bir sohani mutahasisi bo'lib yetishtirish uchun 15 dan ortiq oqituvchilar bilan boyitilgan o'quv markaz</p>
               </div>
               <div className="result_card" data-aos="zoom-in" data-aos-duration="1000">
-                <h3>200+</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Adipisci expedita
-                  sed voluptatibus quos illum numquam et</p>
+                <h3>7+</h3>
+                <p>7 yildan ortiq ishalab keylayotgan muoliflik huquqiga ega bo'lgan ish reja asosida tuzilgan darslar</p>
               </div>
             </div>
           </div>
