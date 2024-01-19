@@ -71,23 +71,23 @@ function Register() {
           <div className="radio-container">
             <div className="radio-section">
               <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="100" className="radio-item">
-                <input type="radio" id='eng' name='course' onChange={(e) => setCourse(e.target.value)} value={'Math'} required />
+                <input type="radio" id='eng' name='course' onChange={(e) => setCourse(e.target.value)} value={'Math'}  />
                 <label htmlFor="eng">English</label>
               </div>
               <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="200" className='radio-item'>
-                <input type="radio" id='comp' name='course' onChange={(e) => setCourse(e.target.value)} value={'Komp_Sav'} required />
+                <input type="radio" id='comp' name='course' onChange={(e) => setCourse(e.target.value)} value={'Komp_Sav'}  />
                 <label htmlFor="comp">Kompyuter Savadxonligi</label>
               </div>
               <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="300" className='radio-item'>
-                <input type="radio" id='front' name='course' onChange={(e) => setCourse(e.target.value)} value={'Frontend'} required />
+                <input type="radio" id='front' name='course' onChange={(e) => setCourse(e.target.value)} value={'Frontend'}  />
                 <label htmlFor="front">Frontend</label>
               </div>
               <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="400" className='radio-item'>
-                <input type="radio" id='back' name='course' onChange={(e) => setCourse(e.target.value)} value={'Backend'} required />
+                <input type="radio" id='back' name='course' onChange={(e) => setCourse(e.target.value)} value={'Backend'}  />
                 <label htmlFor="back">Backend</label>
               </div>
               <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="500" className='radio-item'>
-                <input type="radio" id='grafic' name='course' onChange={(e) => setCourse(e.target.value)} value={'Grafic Desing'} required />
+                <input type="radio" id='grafic' name='course' onChange={(e) => setCourse(e.target.value)} value={'Grafic Desing'}  />
                 <label htmlFor="grafic">Grafic Desing</label>
               </div>
             </div>
