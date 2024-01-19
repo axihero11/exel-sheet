@@ -90,25 +90,24 @@ function Register() {
                 <input type="radio" id='grafic' name='course' onChange={(e) => setCourse(e.target.value)} value={'Grafic Desing'} required />
                 <label htmlFor="grafic">Grafic Desing</label>
               </div>
-              
             </div>
             <CoursesIng course={course} />
           </div>
           <div className="text-section">
             <div className="inputBox">
               <input className='input'  onChange={(e) => setName(e.target.value)} value={name} type="text" required='required' />
-              <span>Name</span>
+              <span>Ism</span>
             </div>
             <div className="inputBox">
               <input className='input' onChange={(e) => setSureName(e.target.value)} value={sureName} type="text" required='required' />
-              <span>SureName</span>
+              <span>Familiya</span>
             </div>
             <div className="inputBox">
               <MasketInput className='input' onChange={(e) => setNumber(e.target.value)} value={number} type="text" required='required' mask={['(', /[1-9]/, /\d/, ')', /\d/, /\d/, /\d/, ' ', /\d/, /\d/, ' ', /\d/, /\d/]} guide={true} ></MasketInput>
-              <span>Phone Number</span>
+              <span>Telefon Raqam</span>
             </div>
             <div className='button1'>
-              <button type='submit' className='btn btn-primary'>Send</button>
+              <button type='submit' className='btn btn-primary'>Jo'natish</button>
             </div>
           </div>
         </form>
