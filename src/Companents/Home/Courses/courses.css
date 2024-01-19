@@ -47,6 +47,9 @@
     align-items: center;
     margin-bottom: 2vh;
 }
+.logo_img img{
+    width: 80px;
+}
 
 .courses_box .logo_img h4 {
     font-size: 20px;

@@ -90,10 +90,7 @@ function Register() {
                 <input type="radio" id='grafic' name='course' onChange={(e) => setCourse(e.target.value)} value={'Grafic Desing'} required />
                 <label htmlFor="grafic">Grafic Desing</label>
               </div>
-              <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="600" className="radio-item">
-                <input type="radio" id='math' name='course' onChange={(e) => setCourse(e.target.value)} value={'English'} required />
-                <label htmlFor="math">Math</label>
-              </div>
+              
             </div>
             <CoursesIng course={course} />
           </div>

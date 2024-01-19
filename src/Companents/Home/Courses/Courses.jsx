@@ -1,7 +1,13 @@
 import React from 'react'
 import "./courses.css"
 
-import logo1 from "../../../imgs/1.svg"
+import logo1 from "../../../imgs/1.webp"
+import logo2 from "../../../imgs/2.svg"
+import logo3 from "../../../imgs/3.svg"
+import logo4 from "../../../imgs/4.svg"
+import logo5 from "../../../imgs/5.svg"
+import club from "../../../imgs/club.svg"
+import logo7 from "../../../imgs/7.svg"
 
 
 function Courses() {
@@ -20,35 +26,35 @@ function Courses() {
                         </div>
                         <div className="courses_box" data-aos="fade-up" data-aos-duration="1000">
                             <div className="logo_img">
-                                <img src={logo1} alt="" />
+                                <img src={club} alt="" />
                                 <h4>So'zlashuv clubi <br />(<span>Speaking club</span> )</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi perferendis pariatur culpa explicabo aliquid quae.</p>
                         </div>
                         <div className="courses_box" data-aos="fade-left" data-aos-duration="1000">
                             <div className="logo_img">
-                                <img src={logo1} alt="" />
+                                <img src={logo4} alt="" />
                                 <h4>Kompyuter Savdxonligi (<span>Word, Exsel, Power Point</span> )</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi perferendis pariatur culpa explicabo aliquid quae.</p>
                         </div>
                         <div className="courses_box" data-aos="fade-right" data-aos-duration="1000">
                             <div className="logo_img">
-                                <img src={logo1} alt="" />
+                                <img src={logo2} alt="" />
                                 <h4>Web saytlar yaratish <br />(<span>Frontend</span>) </h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi perferendis pariatur culpa explicabo aliquid quae.</p>
                         </div>
                         <div className="courses_box" data-aos="fade-up" data-aos-duration="1000">
                             <div className="logo_img">
-                                <img src={logo1} alt="" />
+                                <img src={logo5} alt="" />
                                 <h4>Serverlar yaratish <br /> (<span>Backend </span> )</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi perferendis pariatur culpa explicabo aliquid quae.</p>
                         </div>
                         <div className="courses_box" data-aos="fade-left" data-aos-duration="1000">
                             <div className="logo_img">
-                                <img src={logo1} alt="" />
+                                <img src={logo3} alt="" />
                                 <h4>Turli xildagi dizyanlar <br />( <span>Grafic Dizayner</span> )</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi perferendis pariatur culpa explicabo aliquid quae.</p>

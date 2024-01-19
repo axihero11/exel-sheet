@@ -73,17 +73,7 @@ function CoursesIng({ course }) {
           <img src={cr} alt="Word" />
         </div>
       </div>
-      <div className="imgs-item">
-        <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="1100" id={course == "English" ? 'selected1' : ''} className="img-box">
-          <img src={ps} alt="Word" />
-        </div>
-        <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="1200" id={course == "English" ? 'selected1' : ''} className="img-box">
-          <img src={ai} alt="Word" />
-        </div>
-        <div data-aos="fade-right"  data-aos-duration="700" data-aos-delay="1400" id={course == "English" ? 'selected1' : ''} className="img-box">
-          <img src={cr} alt="Word" />
-        </div>
-      </div>
+      
     </div>
   )
 }
