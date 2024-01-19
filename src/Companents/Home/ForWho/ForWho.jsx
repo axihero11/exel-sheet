@@ -26,7 +26,7 @@ function ForWho() {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto obcaecati, velit magni </p>
                 <div className="shadow1"></div>
             </div>
-            <div className="for_box" data-aos="zoom-in-left" data-aos-duration="1000">
+            <div className="for_box" data-aos="fade-right"  data-aos-duration="700" data-aos-delay="500">
                 <img src={foiz} alt="" />
                 <h5>Kursni 100% bilim bilan yakunlash</h5><br />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto obcaecati, velit magni </p>

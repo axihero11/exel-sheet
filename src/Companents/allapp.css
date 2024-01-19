@@ -23,16 +23,19 @@
 @media (max-width:1130px){
     .container{
         width: 996px;
+        overflow: hidden;
     }
 }
 @media (max-width:996px){
     .container{
         width: 100%;
         padding: 10px;
+        overflow: hidden;
     }
 }
 @media (max-width:768px){
     .container{
         width: 100%;
+        overflow: hidden;
     }
 }
