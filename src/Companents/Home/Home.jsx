@@ -7,6 +7,7 @@ import Register from '../Register/Register'
 import logo from "../../imgs/logo.png"
 import ForWho from './ForWho/ForWho'
 import Courses from './Courses/Courses'
+import OurGroup from './OurGroup/OurGroup'
 
 function Home() {
 
@@ -58,6 +59,7 @@ function Home() {
       </div>
       <ForWho />
       <Courses />
+      <OurGroup />
       <Register />
     </div>
   )
